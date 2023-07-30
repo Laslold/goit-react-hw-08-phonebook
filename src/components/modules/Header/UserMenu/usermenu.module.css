@@ -1,0 +1,19 @@
+.link {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: black;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.active {
+  composes: link;
+  color: blue;
+  font-weight: bold;
+  cursor: pointer;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}

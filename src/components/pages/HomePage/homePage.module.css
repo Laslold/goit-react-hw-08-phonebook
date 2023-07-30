@@ -1,0 +1,12 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+.menu {
+  overflow: hidden;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
