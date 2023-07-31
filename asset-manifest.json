@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/goit-react-hw-08-phonebook/static/css/main.17aa9ba5.css",
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.6164c265.js",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.217f63cb.js",
     "static/js/585.ae4017f8.chunk.js": "/goit-react-hw-08-phonebook/static/js/585.ae4017f8.chunk.js",
     "static/js/694.33780542.chunk.js": "/goit-react-hw-08-phonebook/static/js/694.33780542.chunk.js",
-    "static/js/788.41c5d536.chunk.js": "/goit-react-hw-08-phonebook/static/js/788.41c5d536.chunk.js",
+    "static/js/788.5efcd7d3.chunk.js": "/goit-react-hw-08-phonebook/static/js/788.5efcd7d3.chunk.js",
     "static/css/486.0dd8a504.chunk.css": "/goit-react-hw-08-phonebook/static/css/486.0dd8a504.chunk.css",
-    "static/js/486.eb297083.chunk.js": "/goit-react-hw-08-phonebook/static/js/486.eb297083.chunk.js",
+    "static/js/486.4bd2d60f.chunk.js": "/goit-react-hw-08-phonebook/static/js/486.4bd2d60f.chunk.js",
     "index.html": "/goit-react-hw-08-phonebook/index.html",
     "main.17aa9ba5.css.map": "/goit-react-hw-08-phonebook/static/css/main.17aa9ba5.css.map",
-    "main.6164c265.js.map": "/goit-react-hw-08-phonebook/static/js/main.6164c265.js.map",
+    "main.217f63cb.js.map": "/goit-react-hw-08-phonebook/static/js/main.217f63cb.js.map",
     "694.33780542.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/694.33780542.chunk.js.map",
-    "788.41c5d536.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/788.41c5d536.chunk.js.map",
+    "788.5efcd7d3.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/788.5efcd7d3.chunk.js.map",
     "486.0dd8a504.chunk.css.map": "/goit-react-hw-08-phonebook/static/css/486.0dd8a504.chunk.css.map",
-    "486.eb297083.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/486.eb297083.chunk.js.map"
+    "486.4bd2d60f.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/486.4bd2d60f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17aa9ba5.css",
-    "static/js/main.6164c265.js"
+    "static/js/main.217f63cb.js"
   ]
 }
