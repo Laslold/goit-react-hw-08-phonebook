@@ -67,11 +67,12 @@ const AuthPage = () => {
             <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
               <LockOutlinedIcon />
             </Avatar>
-            <Typography component="h1" variant="h5">
-              Sign in
-            </Typography>
             {toggle ? (
               <>
+                <Typography component="h1" variant="h5">
+                  Sign in
+                </Typography>
+
                 <LoginForm onSubmit={onLogin} />
                 <Grid container sx={{ justifyContent: 'center' }}>
                   <Grid item>
@@ -87,6 +88,9 @@ const AuthPage = () => {
               </>
             ) : (
               <>
+                <Typography component="h1" variant="h5">
+                  Sign up
+                </Typography>
                 <RegisterForm onSubmit={onSignup} />
                 <Grid container sx={{ textAlign: 'center' }}>
                   <Grid item>
