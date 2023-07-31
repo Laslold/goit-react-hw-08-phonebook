@@ -25,6 +25,7 @@ const LoginForm = ({ onSubmit }) => {
         onChange={handleChange}
         {...filds.password}
         fullWidth
+        minlength="7"
       />
 
       <Button fullWidth variant="contained" sx={{ mt: 3, mb: 2 }} type="submit">

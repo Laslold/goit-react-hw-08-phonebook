@@ -30,7 +30,7 @@ const ContactForm = ({ onSubmit }) => {
   return (
     <Box
       component="form"
-      noValidate
+      validate
       sx={{ mt: 1 }}
       onSubmit={handleSubmit}
       action=""
