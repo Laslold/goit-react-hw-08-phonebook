@@ -28,6 +28,6 @@ export const filds = {
     required: true,
     margin: 'normal',
 
-    autoComplete: 'new-password',
+    autoComplete: 'off',
   },
 };

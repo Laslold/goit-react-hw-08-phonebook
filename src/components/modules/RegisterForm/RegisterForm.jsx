@@ -3,7 +3,7 @@ import { initialState } from './iniialState';
 import PropTypes from 'prop-types';
 import TextFilds from '../../../shared/component/TextFild/index.js';
 import { filds } from './filds';
-import { Button } from '@mui/material';
+import { Box, Button } from '@mui/material';
 const RegisterForm = ({ onSubmit }) => {
   const { state, handleSubmit, handleChange } = UseForm({
     onSubmit,
@@ -12,7 +12,12 @@ const RegisterForm = ({ onSubmit }) => {
   const { name, email, password } = state;
 
   return (
-    <form onSubmit={handleSubmit}>
+    <Box
+      onSubmit={handleSubmit}
+      component="form"
+      noValidate={false}
+      sx={{ mt: 1, '& .MuiTextField-root': { m: 1, width: '25ch' } }}
+    >
       <TextFilds
         value={name}
         onChange={handleChange}
@@ -30,12 +35,13 @@ const RegisterForm = ({ onSubmit }) => {
         onChange={handleChange}
         {...filds.password}
         fullWidth
+        minLength="7"
       />
 
       <Button fullWidth variant="contained" sx={{ mt: 3, mb: 2 }} type="submit">
         Register
       </Button>
-    </form>
+    </Box>
   );
 };
 

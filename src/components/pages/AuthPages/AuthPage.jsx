@@ -9,8 +9,8 @@ import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import LoginForm from 'components/modules/LoginForm/LoginForm';
 import { useDispatch } from 'react-redux';
-import { Navigate } from 'react-router-dom';
-import UseAuth from '../../../shared/hooks/useAuth';
+// import { Navigate } from 'react-router-dom';
+// import UseAuth from '../../../shared/hooks/useAuth';
 import { loginAuthThunk, signupAuthThunk } from 'redux/auth/auth-operation';
 import RegisterForm from 'components/modules/RegisterForm/RegisterForm';
 import { useState } from 'react';
@@ -26,12 +26,6 @@ const AuthPage = () => {
   const onSignup = data => {
     dispatch(signupAuthThunk(data));
   };
-
-  const isLogin = UseAuth();
-
-  if (isLogin) {
-    return <Navigate to="/home" />;
-  }
 
   return (
     <ThemeProvider theme={defaultTheme}>

@@ -8,7 +8,7 @@ export const filds = {
     pattern: '/^[A-Z0-9._%+-]+@[A-Z0-9.-]+.[A-Z]{2,4}$/i',
     margin: 'normal',
 
-    autoComplete: 'email',
+    autoComplete: 'off',
   },
   password: {
     label: 'Password:',
@@ -17,6 +17,6 @@ export const filds = {
     placeholder: 'Input password',
     required: true,
     margin: 'normal',
-    autoComplete: 'current-password',
+    autoComplete: 'off',
   },
 };

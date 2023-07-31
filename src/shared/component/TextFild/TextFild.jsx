@@ -17,6 +17,7 @@ const TextFilds = ({
   autoComplete,
   pattern,
   style,
+  // ...inputProps
 }) => {
   const id = useMemo(() => nanoid(), []);
   return (
@@ -34,6 +35,7 @@ const TextFilds = ({
       autoComplete={autoComplete}
       pattern={pattern}
       style={style}
+      // inputProps={{ ...inputProps }}
     ></TextField>
   );
 };

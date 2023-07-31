@@ -1,5 +1,5 @@
 import UserRoutes from './UserRoutes';
-import AuthPage from './pages/AuthPages/AuthPage';
+// import AuthPage from './pages/AuthPages/AuthPage';
 
 import { useDispatch } from 'react-redux';
 import { useEffect } from 'react';
@@ -11,7 +11,7 @@ export const App = () => {
   }, [dispatch]);
   return (
     <div>
-      <AuthPage />
+      {/* <AuthPage /> */}
       <UserRoutes />
     </div>
   );

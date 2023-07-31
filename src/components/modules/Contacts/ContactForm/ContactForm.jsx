@@ -30,7 +30,7 @@ const ContactForm = ({ onSubmit }) => {
   return (
     <Box
       component="form"
-      validate
+      noValidate={false}
       sx={{ mt: 1 }}
       onSubmit={handleSubmit}
       action=""
@@ -50,7 +50,7 @@ const ContactForm = ({ onSubmit }) => {
         {...filds.number}
         fullWidth
         title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
-        minlength="12"
+        minLength="12"
       />
 
       <div>
